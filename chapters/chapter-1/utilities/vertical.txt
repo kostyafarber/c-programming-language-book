@@ -1,0 +1,18 @@
+hey there sally distinguish
+a[3] = {0, 0, 0}
+a = {3, 5, 5, 11, 0, 0, 0, ... , 0}
+      
+      *
+      *
+      *
+      *
+      *
+      *
+  * * *
+  * * *
+* * * *
+* * * *
+* * * * *
+
+for example 3, only print when i < (max - i)th index
+
