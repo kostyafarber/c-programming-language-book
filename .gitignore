@@ -1,6 +1,5 @@
 docs
 .vscode
 build
-put_char_q.c
-count_d_w_other.c
-pyramid
+utilities
+notes

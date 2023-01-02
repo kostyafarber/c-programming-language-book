@@ -46,8 +46,7 @@ int get_line(char* line) {
 
     while ((c = getchar()) != EOF && c != '\n' && i < MAXLINE) {
         ++len;
-        line[i] = c;
-        ++i;
+        line[i++] = c;
     }
 
     line[i] = '\0';

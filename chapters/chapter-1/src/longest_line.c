@@ -51,4 +51,3 @@ void copy(char* from, char* to) {
         ++i;
     }
 }
-// my name is jude
