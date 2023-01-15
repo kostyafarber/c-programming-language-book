@@ -10,7 +10,7 @@ int kf_rightrot(unsigned int x, unsigned int n);
 int
 main(int argc, char **argv) {
     int x = 40; /* 00000000000000000000000000101000 */ 
-    int p = 20; /* 00000000000000101000000000000000 */
+    int p = 5;  /* 01000000000000000000000000000001 */
 
     printf("My answer, result after %d rotations is: %d\n", p, kf_rightrot(x, p));
     return 0;
