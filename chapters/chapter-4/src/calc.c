@@ -74,6 +74,8 @@ double pop(void) {
 
 int getch(void);
 int ungetch(int);
+void printop(void);
+int duplicate(void);
 
 int getop(char s[]) {
     int i, c;
@@ -81,8 +83,9 @@ int getop(char s[]) {
     while ((s[0] = c = getchar()) == ' ' || c == '\t') {
         ;
     }
-
     s[1] = '\0';
-
-    
+    i = 0;
+    if (!isdigit(c) && c != '.' && c != '-') {
+        return c;
+    }    
 }
